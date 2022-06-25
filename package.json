@@ -1,15 +1,22 @@
 {
   "name": "tailwind-initial",
-  "version": "0.0.1",
-  "description": "Tailwind plugin that generates utilities at a lower specificity",
+  "version": "1.0.0",
+  "description": "Tailwind plugin that generates utilities at a low specificity",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "keywords": [
     "tailwind",
     "css layers"
   ],
   "author": "Dom Christie",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "tailwindcss": "^3"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3"
+  }
 }
